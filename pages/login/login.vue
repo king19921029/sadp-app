@@ -80,14 +80,14 @@
 		},
 		methods: {
 			onFocus() {
-				this.$mp.page.$getAppWebview().setStyle({
-					softinputNavBar: 'none'
-				})
+				// this.$mp.page.$getAppWebview().setStyle({
+				// 	softinputNavBar: 'none'
+				// })
 			},
 			onBlur() {
-				this.$mp.page.$getAppWebview().setStyle({
-					softinputNavBar: 'auto'
-				})
+				// this.$mp.page.$getAppWebview().setStyle({
+				// 	softinputNavBar: 'auto'
+				// })
 			},
 			changePassword() {
 				this.showPassword = !this.showPassword
@@ -97,47 +97,42 @@
 				this.username = ''
 			},
 			radioChange: function() {
-
 				this.ischecked = !this.ischecked
 				this.RememberPsd = this.ischecked
 				console.log('是否记住密码', this.RememberPsd);
 			},
-
-			login: function() {
-				// useMsg
-				var _this = this
-				this.$set(this.useMsg, 'username', this.username);
-				// console.log(this.RememberPsd);
-				if (this.RememberPsd) {
-					this.$set(this.useMsg, 'password', this.password);
-				}
-				uni.redirectTo({
-					'url': '/pages/index/index'
-				})
-				return
-				this.$ajax.get({
-					url: '/app/public/login',
-					data:{
-						username:_this.username,
-						'password':_this.password
-					},
-					success: function(res) {
-						if (res.data.meta.success) {
-							_this.$set(_this.useMsg, 'tokenId', res.data.data);
-							uni.setStorageSync('login', JSON.stringify(_this.useMsg))
-
-							uni.redirectTo({
-								'url': '/pages/index/index'
-							})
-						} else {
-							uni.showToast({
-								icon: 'none',
-								title: "用户名或密码错误!"
-							})
+			//登录
+			async loginFun(username,password) {
+				try {
+					let data = await this.$wxhttp.get({
+						url: '/app/public/login',
+						data:{
+							username:username,
+							password:password
 						}
+					})
+					if( data.code == '0' ){
+						uni.setStorageSync('login', JSON.stringify(data.data))
+						uni.redirectTo({
+							'url': '/pages/index/index'
+						})
 					}
-				})
-				// console.log(this.useMsg);
+				} catch (e) {
+			
+				}
+			},
+			login: function() {
+				if( this.username && this.password ){
+					// this.loginFun(this.username,this.password)
+					uni.redirectTo({
+						'url': '/pages/index/index'
+					})
+				}else{
+					uni.showToast({
+						title:"请填写完整！",
+						icon:"none"
+					})
+				}
 			}
 
 		},
