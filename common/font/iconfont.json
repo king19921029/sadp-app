@@ -1,0 +1,352 @@
+{
+  "id": "1661556",
+  "name": "通钢app",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14033770",
+      "name": "扫一扫",
+      "font_class": "saoyisao",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "14014827",
+      "name": "首 页",
+      "font_class": "shouye",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "14014828",
+      "name": "我 的点击",
+      "font_class": "wodedianji",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "14014829",
+      "name": "查询",
+      "font_class": "chaxun",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "14014830",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "14014831",
+      "name": "我 的",
+      "font_class": "wode",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "14014832",
+      "name": "首 页点击",
+      "font_class": "shouyedianji",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "13203433",
+      "name": "停机信息",
+      "font_class": "tingjixinxi",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "13203434",
+      "name": "故障信息审核",
+      "font_class": "guzhangxinxishenhe",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "13203435",
+      "name": "作业线监控",
+      "font_class": "zuoyexianjiankong",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "13203436",
+      "name": "信息汇总",
+      "font_class": "xinxihuizong",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "13203423",
+      "name": "出库查询",
+      "font_class": "chukuchaxun",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "13203424",
+      "name": "库存查询",
+      "font_class": "kucunchaxun",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "13203425",
+      "name": "库存台账",
+      "font_class": "kucuntaizhang",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "13203426",
+      "name": "物料代码查询",
+      "font_class": "wuliaodaimachaxun",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "13203427",
+      "name": "报废审批",
+      "font_class": "baofeishenpi",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "13203412",
+      "name": "安全阀",
+      "font_class": "anquanfa",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "13203413",
+      "name": "总库汇总",
+      "font_class": "zongkuhuizong",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "13203414",
+      "name": "特种设备",
+      "font_class": "tezhongshebei",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "13203403",
+      "name": "计划分类统计",
+      "font_class": "jihuafenleitongji",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "13203404",
+      "name": "工单查询",
+      "font_class": "gongdanchaxun",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "13203405",
+      "name": "月度计划查询",
+      "font_class": "yuedujihuachaxun",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "13203406",
+      "name": "工单登录",
+      "font_class": "gongdandenglu",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "13203392",
+      "name": "临时总库",
+      "font_class": "linshizongku",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "13203393",
+      "name": "临时计划",
+      "font_class": "linshijihua",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "13203394",
+      "name": "离线计划",
+      "font_class": "lixianjihua",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "13203395",
+      "name": "在线计划",
+      "font_class": "zaixianjihua",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "13203396",
+      "name": "在线总库",
+      "font_class": "zaixianzongku",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "13203397",
+      "name": "离线总库",
+      "font_class": "lixianzongku",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "13203383",
+      "name": "异常信息履历",
+      "font_class": "yichangxinxilvli",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "13203384",
+      "name": "设备档案查询",
+      "font_class": "shebeidanganchaxun",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "13203385",
+      "name": "故障信息履历",
+      "font_class": "guzhangxinxilvli",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "13203386",
+      "name": "检修信息",
+      "font_class": "jianxiuxinxi",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "13203370",
+      "name": "检修报支",
+      "font_class": "jianxiubaozhi",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "13203371",
+      "name": "备修报支",
+      "font_class": "beixiubaozhi",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "13203372",
+      "name": "备修合同",
+      "font_class": "beixiuhetong",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "13203373",
+      "name": "备修结算",
+      "font_class": "beixiujiesuan",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "13203374",
+      "name": "备修项目",
+      "font_class": "beixiuxiangmu",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "13203375",
+      "name": "奖惩信息",
+      "font_class": "jiangchengxinxi",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "13203376",
+      "name": "检修结算",
+      "font_class": "jianxiujiesuan",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "13203377",
+      "name": "检修合同",
+      "font_class": "jianxiuhetong",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "13203378",
+      "name": "检修项目",
+      "font_class": "jianxiuxiangmu",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "13203379",
+      "name": "预付款查询",
+      "font_class": "yufukuanchaxun",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "13203361",
+      "name": "计划登录",
+      "font_class": "jihuadenglu",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "13203362",
+      "name": "给油脂",
+      "font_class": "geiyouzhi",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "13203363",
+      "name": "给油脂计划",
+      "font_class": "geiyouzhijihua",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "13203364",
+      "name": "异常联络单",
+      "font_class": "yichanglianluodan",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "13203365",
+      "name": "点检计划",
+      "font_class": "dianjianjihua",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "13203366",
+      "name": "点检标准查询",
+      "font_class": "dianjianbiaozhunchaxun",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    }
+  ]
+}

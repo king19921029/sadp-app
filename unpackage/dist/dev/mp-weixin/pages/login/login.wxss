@@ -1,0 +1,181 @@
+page {
+	height: 100vh;
+	background-color: #4fbef1;
+}
+
+
+page {
+	position: fixed;
+}
+
+
+.page-box {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+.with-fun {
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	width: 529rpx;
+	height: 75rpx;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	border: 0;
+	align-items: center;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.iconfont,
+.uni-icon {
+	font-size: 32rpx;
+}
+.login-title{
+	width:427rpx;
+	height:42rpx;
+	font-size:42rpx;
+	font-family:SourceHanSansCN-Bold,SourceHanSansCN;
+	font-weight:bold;
+	color:rgba(255,255,255,1);
+	line-height:63rpx;
+}
+.logo {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding-bottom: 60rpx;
+	box-sizing: border-box;
+}
+.logo-img {
+	height: 430rpx;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.login-box {
+	background-color: #fff;
+	margin: auto;
+	width: 576rpx;
+	height: 576rpx;
+	background: rgba(255, 255, 255, 1);
+	border-radius: 8rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.login-box-top {
+	text-align: center;
+	height: 180rpx;
+	line-height: 180rpx;
+}
+.login-box-bottom {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	padding: 0 30rpx;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	margin-bottom: 40rpx;
+}
+.input-username,
+.input-password {
+	position: relative;
+	height: 75rpx;
+	padding: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.input-username .icon-yonghu {
+	position: absolute;
+	left: 42rpx;
+	top: 12rpx;
+	color: #fff;
+}
+.input-password {}
+.input-password .icon-mima {
+	position: absolute;
+	left: 42rpx;
+	top: 22rpx;
+	color: #fff;
+}
+.logo-icon-img {
+	width: 68rpx;
+	height: 68rpx;
+	background-repeat: no-repeat;
+}
+.login-btn {
+	height: 80rpx;
+	line-height: 80rpx;
+	color: #fff;
+	background-color: #0A98D5;
+	border-radius: 100rpx;
+	font-size: 28rpx;
+	width: 100%;
+	margin-top: 40rpx;
+}
+.button-hover {
+	background-color: #dedede;
+}
+.foot-bar {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.icon-yanjing {
+	/* position: absolute; */
+	/* right: 10upx; */
+	/* z-index: 2; */
+	/* color: #999; */
+}
+

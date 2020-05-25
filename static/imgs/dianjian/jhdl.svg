@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>xxxhdpi/计划登录</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="计划登录" fill="#6ED3C6">
+            <path d="M39.4709333,0 C41.9818667,0 44,2.02930005 44,4.53608247 L44,30.081389 C44,32.5881715 41.9818667,34.6174715 39.4709333,34.6174715 L28.3008,34.6174715 L28.3008,40.8963646 L36.1386667,40.8963646 C37.0069333,40.8963646 37.7109333,41.5887141 37.7109333,42.4481823 C37.7109333,43.3076506 37.0069333,44 36.1386667,44 L31.3984,44 L18.9141333,31.5138361 L40.9258667,31.5138361 L40.9258667,3.22300597 L3.12106667,3.22300597 L3.12106667,15.733044 L0,12.6294086 L0,4.55995659 C0,2.05317417 2.01813333,0.0238741183 4.52906667,0.0238741183 L39.4709333,0.0238741183 L39.4709333,0 Z" id="Shape" fill-rule="nonzero"></path>
+            <polygon id="Path" points="35 8 35 26 14.0322581 26 9 21.03125 9 8 35 8"></polygon>
+        </g>
+    </g>
+</svg>

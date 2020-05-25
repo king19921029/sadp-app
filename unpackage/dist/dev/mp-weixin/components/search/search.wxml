@@ -1,0 +1,1 @@
+<view><block wx:for="{{datas}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="style"><input style="height:60rpx;margin-left:30rpx;" placeholder="{{item}}" placeholder-class="placeholder-style"/></view></block><view class="search">查询</view></view>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>xxxhdpi/出库查询</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="出库查询">
+            <path d="M48,14.8324395 L48,46.1563465 C48,47.1704859 47.1025352,48 46.002417,48 L1.9976892,48 C0.880923714,47.982902 -0.0111935117,47.1595295 0.000106166447,46.1563465 L0.000106166447,14.8324395 L0.799139381,14.8324395 L23.2994515,0 L25.6502304,2.9956119 L7.70093352,14.8324395 L35.6497257,14.8324395 L24.3011381,11.0567203 L25.6502304,7.60084512 L47.3022935,14.8324395 L48,14.8324395 Z" id="Shape" fill="#6ED3C6" fill-rule="nonzero"></path>
+            <polygon id="Path" fill="#FFFFFF" points="24.0000531 40.6279863 40.0009827 40.6279863 40.0009827 36.9432797 24.0000531 36.9432797 24.0000531 40.6279863"></polygon>
+            <polygon id="Path" fill="#FFFFFF" points="28.0010093 33.2585731 40.0009827 33.2585731 40.0009827 29.5738664 28.0010093 29.5738664"></polygon>
+        </g>
+    </g>
+</svg>

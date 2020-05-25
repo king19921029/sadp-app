@@ -1,0 +1,1187 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/bfsh/bfsh",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/checkbxht/checkbxht",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 我的
+		{
+			"path": "pages/my/editPassword",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/llycz",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/xzaz",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/zhyaq",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		/*----------------------物料管理----------------------
+		*
+		*
+		*
+		*
+		*
+		*
+		*/
+		// 库存查询
+		{
+			"path": "pages/wl/kccx/kccx",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/wl/kccx/kccx-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 出库查询
+		{
+			"path": "pages/wl/ckcx/ckcx",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/wl/ckcx/ckcx-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 库存台账
+		{
+			"path": "pages/wl/kctz/kctz",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/wl/kctz/kctz-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 报废审核
+		{
+			"path": "pages/wl/bfsh/bfsh",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/wl/bfsh/bfsh-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 物料代码查询
+		{
+			"path": "pages/wl/wldm/wldm",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/wl/wldm/wldm-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		/*-----------------------合同管理------------------------------
+		*
+		*
+		*
+		*
+		*
+		*
+		*/
+		// 预付款查询
+		{
+			"path": "pages/ht/yfk/yfkcx",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/ht/yfk/yfkcx-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 奖惩信息查询
+		{
+			"path": "pages/ht/jc/jcxxcx",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/ht/jc/jcxxcx-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 检修报支查询
+		{
+			"path": "pages/ht/jx/jxbz/jxbz",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/ht/jx/jxbz/jxbz-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 检修合同查询
+		{
+			"path": "pages/ht/jx/jxht/jxht",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/ht/jx/jxht/jxht-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 检修结算查询
+		{
+			"path": "pages/ht/jx/jxjs/jxjs",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/ht/jx/jxjs/jxjs-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 检修项目查询
+		{
+			"path": "pages/ht/jx/jxxm/jxxm",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/ht/jx/jxxm/jxxmz-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 备修报支查询
+		{
+			"path": "pages/ht/bx/bxbz/bxbz",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/ht/bx/bxbz/bxbz-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 备修合同查询
+		{
+			"path": "pages/ht/bx/bxht/bxht",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/ht/bx/bxht/bxht-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 备修结算查询
+		{
+			"path": "pages/ht/bx/bxjs/bxjs",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/ht/bx/bxjs/bxjs-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 备修项目查询
+		{
+			"path": "pages/ht/bx/bxxm/bxxm",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/ht/bx/bxxm/bxxm-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		/*-----------------------计量管理------------------------------
+		*
+		*
+		*
+		*
+		*
+		*
+		*/
+		// 离线计划查询
+		{
+			"path": "pages/jl/lxjhcx/lxjhcx",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/jl/lxjhcx/lxjhcx-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 离线总库查询
+		{
+			"path": "pages/jl/lxzkcx/lxzkcx",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/jl/lxzkcx/lxzkcx-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 临时计划查询
+		{
+			"path": "pages/jl/lsjhcx/lsjhcx",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/jl/lsjhcx/lsjhcx-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 临时总库查询
+		{
+			"path": "pages/jl/lszkcx/lszkcx",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/jl/lszkcx/lszkcx-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 在线计划查询
+		{
+			"path": "pages/jl/zxjhcx/zxjhcx",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/jl/zxjhcx/zxjhcx-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 在线总库查询
+		{
+			"path": "pages/jl/zxzkcx/zxzkcx",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/jl/zxzkcx/zxzkcx-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		/*-----------------------特种管理------------------------------
+		*
+		*
+		*
+		*
+		*
+		*
+		*/
+		// 安全阀总库信息
+		{
+			"path": "pages/tz/aqfzkxx/aqfzkxx",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tz/aqfzkxx/aqfzkxx-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 特种设备人员查询
+		{
+			"path": "pages/tz/tzsbrycx/tzsbrycx",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tz/tzsbrycx/tzsbrycx-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// 总库信息汇总
+		{
+			"path": "pages/tz/zkxxhz/zkxxhz",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tz/zkxxhz/zkxxhz-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		/*-----------------------基准管理------------------------------*/
+		// 故障信息与查询
+		{
+			"path": "pages/jz/guzhang/guzhangInfo",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/jz/guzhang/guzhangSearch",
+			"style": {
+				// "navigationBarTitleText": "故障信息查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		// 检修信息与查询
+		{
+			"path": "pages/jz/jianxiu/jianxiuInfo",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/jz/jianxiu/jianxiuSearch",
+			"style": {
+				// "navigationBarTitleText": "检修信息查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		// 设备信息与查询
+		{
+			"path": "pages/jz/shebei/shebeiDetails",
+			"style": {
+				// "navigationBarTitleText": "设备档案详情",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/jz/shebei/shebeidangan",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/jz/shebei/shebeiSearch",
+			"style": {
+				// "navigationBarTitleText": "设备档案查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		// 异常信息与查询
+		{
+			"path": "pages/jz/yichang/yichangInfo",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/jz/yichang/yichangSearch",
+			"style": {
+				// "navigationBarTitleText": "异常信息查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		/*-----------------------点检管理------------------------------*/
+		// 点检标准信息与查询
+		{
+			"path": "pages/dj/dianjianbiaozhun/biaozhun",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/dj/dianjianbiaozhun/biaozhunSearch",
+			"style": {
+				// "navigationBarTitleText": "点检标准查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/dj/dianjianbiaozhun/biaozhunDetails",
+			"style": {
+				// "navigationBarTitleText": "点检标准详情",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		// 点检标准项次信息与查询
+		{
+			"path": "pages/dj/dianjianbiaozhun/xiangci",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/dj/dianjianbiaozhun/xiangciSearch",
+			"style": {
+				// "navigationBarTitleText": "点检标准项次查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/dj/dianjianbiaozhun/xiangciDetails",
+			"style": {
+				// "navigationBarTitleText": "点检标准项次详情",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		// 点检计划信息与查询
+		{
+			"path": "pages/dj/dianjianjihua/jihua",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/dj/dianjianjihua/jihuaSearch",
+			"style": {
+				// "navigationBarTitleText": "点检计划查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/dj/dianjianjihua/jihuaDetails",
+			"style": {
+				// "navigationBarTitleText": "点检计划详情",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		// 点检计划项次信息与查询
+		{
+			"path": "pages/dj/dianjianjihua/xiangci",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/dj/dianjianjihua/xiangciSearch",
+			"style": {
+				// "navigationBarTitleText": "点检计划项次查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/dj/dianjianjihua/xiangciDetails",
+			"style": {
+				// "navigationBarTitleText": "点检计划项次详情",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		// 点检计划登录信息与查询
+		{
+			"path": "pages/dj/dianjianjihua/login/shiji",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/dj/dianjianjihua/login/shijiSearch",
+			"style": {
+				// "navigationBarTitleText": "点检区域计划实绩登录查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/dj/dianjianjihua/login/shijiDetails",
+			"style": {
+				// "navigationBarTitleText": "点检计划实绩登录详情",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/dj/dianjianjihua/login/xiangci",
+			"style": {
+				// "navigationBarTitleText": "点检计划项次登录信息",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		// 点检标准信息与查询
+		{
+			"path": "pages/dj/geiyouzhibiaozhun/biaozhun",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/dj/geiyouzhibiaozhun/biaozhunSearch",
+			"style": {
+				// "navigationBarTitleText": "给油脂标准查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/dj/geiyouzhibiaozhun/biaozhunDetails",
+			"style": {
+				// "navigationBarTitleText": "给油脂标准详情",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		// 给油脂标准项次信息与查询
+		{
+			"path": "pages/dj/geiyouzhibiaozhun/xiangci",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/dj/geiyouzhibiaozhun/xiangciSearch",
+			"style": {
+				// "navigationBarTitleText": "给油脂标准项次查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/dj/geiyouzhibiaozhun/xiangciDetails",
+			"style": {
+				// "navigationBarTitleText": "给油脂标准项次详情",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/dj/geiyouzhibiaozhun/xiangDetailsSearch",
+			"style": {
+				// "navigationBarTitleText": "给油脂标准项次详情查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		// 给油脂计划登录信息与查询
+		{
+			"path": "pages/dj/geiyouzhijihua/login/shiji",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/dj/geiyouzhijihua/login/shijiSearch",
+			"style": {
+				// "navigationBarTitleText": "给油脂计划实绩登录查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/dj/geiyouzhijihua/login/shijiDetails",
+			"style": {
+				// "navigationBarTitleText": "点检计划实绩登录详情",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/dj/geiyouzhijihua/login/xiangci",
+			"style": {
+				// "navigationBarTitleText": "给油脂计划项次登录信息",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		//异常联络单
+		{
+			"path": "pages/dj/yichanglianluodan/yichangInfo",
+			"style": {
+				// "navigationBarTitleText": "给油脂计划项次登录信息",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/dj/yichanglianluodan/yichangDetails",
+			"style": {
+				// "navigationBarTitleText": "异常联络单详情",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/dj/yichanglianluodan/yichangSearch",
+			"style": {
+				// "navigationBarTitleText": "异常联络单查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		/*-----------------------状态管理------------------------------*/
+		// 故障新增维护
+		{
+			"path": "pages/zt/guzhanginsert/guzhangInfo",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/zt/guzhanginsert/guzhangSearch",
+			"style": {
+				// "navigationBarTitleText": "故障新增维护页面查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/zt/guzhanginsert/guzhanginsert",
+			"style": {
+				// "navigationBarTitleText": "故障新增详情",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		//故障审核
+		{
+			"path": "pages/zt/guzhangshenhe/guzhangInfo",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/zt/guzhangshenhe/guzhangSearch",
+			"style": {
+				// "navigationBarTitleText": "故障信息审核查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		//停机信息
+		{
+			"path": "pages/zt/tingjisearch/tingjiInfo",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/zt/tingjisearch/tingjiSearch",
+			"style": {
+				// "navigationBarTitleText": "停机信息查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		//停机汇总信息
+		{
+			"path": "pages/zt/tingjisearch/summaryInfo",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/zt/tingjisearch/summarySearch",
+			"style": {
+				// "navigationBarTitleText": "停机信息汇总查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		//作业线监控
+		{
+			"path": "pages/zt/zuoyexiansearch/zuoyexianjiankong",
+			"style": {
+				// "navigationBarTitleText": "作业线监控画面",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		/*-----------------------检修管理------------------------------*/
+		// 检修工单
+		{
+			"path": "pages/jx/gongdansearch/gongdanInfo",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/jx/gongdansearch/gongdanSearch",
+			"style": {
+				// "navigationBarTitleText": "检修工单查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/jx/gongdansearch/gongdanDetails",
+			"style": {
+				// "navigationBarTitleText": "检修工单明细",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		// 计划实绩登陆
+		{
+			"path": "pages/jx/jihualogin/jihuaInfo",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/jx/jihualogin/jihuaSearch",
+			"style": {
+				// "navigationBarTitleText": "计划实绩登陆查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/jx/jihualogin/jiahuaDetails",
+			"style": {
+				// "navigationBarTitleText": "计划实绩登陆详情",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		// 月度计划
+		{
+			"path": "pages/jx/yuedusearch/yueduInfo",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/jx/yuedusearch/yueduSearch",
+			"style": {
+				// "navigationBarTitleText": "月度计划查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/jx/yuedusearch/yueduDetails",
+			"style": {
+				// "navigationBarTitleText": "月度计划详情",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		// 分类
+		{
+			"path": "pages/jx/fenleisearch/fenleiInfo",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/jx/fenleisearch/fenleiSearch",
+			"style": {
+				// "navigationBarTitleText": "检修计划分类查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/jx/fenleisearch/fenleiDetails",
+			"style": {
+				// "navigationBarTitleText": "检修计划分类详情",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		// 工单登陆
+		{
+			"path": "pages/jx/gongdanlogin/quyuinfo",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/jx/gongdanlogin/quyuSearch",
+			"style": {
+				// "navigationBarTitleText": "区域工单数量查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/jx/gongdanlogin/gongdanDetails",
+			"style": {
+				// "navigationBarTitleText": "检修计划分类详情",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/jx/gongdanlogin/gongdanSearch",
+			"style": {
+				// "navigationBarTitleText": "工单详情查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		{
+			"path": "pages/jx/gongdanlogin/gongdangongxu",
+			"style": {
+				// "navigationBarTitleText": "检修计划分类详情",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		},
+		// 检修
+		{
+			"path": "pages/jx/jianxiusearch/jianxiuInfo",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/jx/jianxiusearch/jianxiuSearch",
+			"style": {
+				// "navigationBarTitleText": "检修标准查询",
+				"app-plus": {
+					"titleNView": false
+					
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/bfsh/bfsh",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/checkbxht/checkbxht",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#3574FA",
+		"backgroundColor": "#F8F8F8"
+	}
+}

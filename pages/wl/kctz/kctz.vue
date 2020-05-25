@@ -1,0 +1,272 @@
+<template>
+	<!-- 库存台账 -->
+	<view class="common-container">
+		<uni-nav-bar :left-icon="leftIcon" :right-icon="rightIcon" :rightText="exitStr" size="60" :title="navBarTitle" color="#fff"
+		 shadow="false" background-color="#4680FA" @click-left="leftNavTop('left')" @click-right="rightNavTop('right')"></uni-nav-bar>
+		<scroll-view scroll-y="true" style="height: 100%;overflow: hidden;">
+			<view class="common-text-title" style="background-color: #fff;height:60upx;text-align: center;line-height: 60upx;">
+				成功查询10条数据
+			</view>
+			<view style="position: relative;margin: 30upx 30upx;background-color: #fff;" v-for="(item,i) in 5" :key="i">
+				<text class="flg">
+					<text style="position: absolute;top:-6upx;left:-8upx;color: #fff;">{{i+1}}</text>
+				</text>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">入库单号</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">首钢股份炼作业部</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">库存岗位号</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">2019-09-24</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">物料代码</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">C0232450</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">物料名称</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">尾滚筒</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">型号规格</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">DT110514/630*1400</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">入库数量</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">0.00000</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">机旁可用数</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">0.00</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">上机数量(有下机备件)</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">JT6-4-0-0</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">甲供件</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">GTGFLT017</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">调拨</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">60</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">资材类</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">60</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">移库数量</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">60</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">其他数量</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">60</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">返采购大库</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">60</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">质量异议</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">60</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">待修待报废数量</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">60</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">修复</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">60</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">报废数量</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">60</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">熔损</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">60</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">其他下机去向</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">60</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">自行修复或离线检修</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">60</text>
+					</view>
+				</view>
+				<view class="list-item">
+					<view class="left" style="display: flex;flex-direction: row;align-items: center;">
+						<view style="width: 15upx;height: 15upx;border-radius: 50%;background-color: red;"></view>
+						<text  class="common-text-attribute">盘亏</text>
+					</view>
+					<view class="right">
+						<text  class="common-text-value">60</text>
+					</view>
+				</view>
+			</view>
+		</scroll-view>
+	</view>
+</template>
+
+<script>
+	import uniNavBar from "@/components/uni-nav-bar/uni-nav-bar.vue"
+	export default {
+		components: {
+			uniNavBar
+		},
+		data() {
+			return {
+				navBarTitle: '库存台账',
+				leftIcon: 'iconfanhui',
+				rightIcon: 'iconchaxun',
+				exitStr: '',
+				btnDisabled: true,
+			}
+		},
+		methods: {
+			leftNavTop: () => {
+				uni.navigateBack()
+			},
+			rightNavTop: () => {
+				uni.navigateTo({
+					url: '/pages/wl/kctz/kctz-search'
+				})
+			}
+		}
+	}
+</script>
+
+<style>
+	page {
+		height: 100%;
+		background-color: #eee;
+	}
+
+	.left>view {
+		margin-right: 10upx;
+	}
+
+	.flg {
+		position: relative;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-color: skyblue skyblue transparent skyblue;
+		border-width: 4upx 18upx 10upx;
+		top: 0;
+		left: 20upx;
+	}
+
+	.list-item {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 10upx 30upx;
+	}
+</style>

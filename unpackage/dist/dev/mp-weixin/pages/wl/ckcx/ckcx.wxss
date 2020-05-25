@@ -1,0 +1,32 @@
+
+page {
+	background-color: #eee;
+	height: 100%;
+}
+.left>view {
+	margin-right: 10rpx;
+}
+.flg {
+	position: relative;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-color: skyblue skyblue transparent skyblue;
+	border-width: 4rpx 18rpx 10rpx;
+	top: 0;
+	left: 20rpx;
+}
+.list-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 10rpx 30rpx;
+}
+

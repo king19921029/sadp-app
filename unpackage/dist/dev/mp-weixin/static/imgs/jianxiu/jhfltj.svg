@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="48px" viewBox="0 0 44 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>xxxhdpi/计划分类统计</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="计划分类统计">
+            <path d="M26.4,0 L4.4,0 C1.97292466,0.00558972674 0.00717348265,1.53734389 2.84217094e-14,3.42857143 L2.84217094e-14,44.5714286 C0.00717348265,46.4626561 1.97292466,47.9944103 4.4,48 L39.6,48 C42.0270753,47.9944103 43.9928265,46.4626561 44,44.5714286 L44,13.7142857 L26.4,0 Z" id="Shape" fill="#5E9BEF" fill-rule="nonzero"></path>
+            <polygon id="Path" fill="#FFFFFF" points="26.4 13.7142857 26.4 3.42857143 39.6 13.7142857"></polygon>
+            <polygon id="Path" fill="#FFFFFF" points="19.2416667 43.3571429 6.95833333 43.3571429 6.95833333 33.7857143 19.2416667 33.7857143"></polygon>
+            <polygon id="Path" fill="#FFFFFF" points="18.9666667 27.7142857 7.23333333 27.7142857 7.23333333 18.5714286 18.9666667 18.5714286"></polygon>
+            <polygon id="Path" fill="#FFFFFF" points="37.2 43.4805195 24.6 43.4805195 24.6 33.6623377 37.2 33.6623377"></polygon>
+            <polygon id="Path" fill="#EAEAEA" points="36.7666667 27.7142857 25.0333333 27.7142857 25.0333333 18.5714286 36.7666667 18.5714286"></polygon>
+        </g>
+    </g>
+</svg>
