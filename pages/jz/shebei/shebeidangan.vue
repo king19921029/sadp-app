@@ -71,7 +71,7 @@
 						weihurenname: '胡松亮',
 						tuhao: 'xxxxx',
 						zhuangjiliang: 'xxxxxx',
-						zichanzhuangtai: 'xxxxxxx'
+						zichanzhuangtai: '资产状态'
 					},
 					{
 						id: '010101',
@@ -135,7 +135,7 @@
 					})
 					console.log(data)
 				} catch (e) {
-			
+
 				}
 			},
 			toDetail(item) {
