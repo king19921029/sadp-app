@@ -1169,14 +1169,6 @@
 				}
 			}
 		}
-	    ,{
-            "path" : "pages/bfsh/bfsh",
-            "style" : {}
-        }
-        ,{
-            "path" : "pages/checkbxht/checkbxht",
-            "style" : {}
-        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",

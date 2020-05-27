@@ -15,7 +15,8 @@
 	/* padding-top: 10px; */
 }
 .uni-navbar-shadow {
-	box-shadow: 0 1px 6px #ccc;
+	-webkit-box-shadow: 0 1px 6px #ccc;
+	        box-shadow: 0 1px 6px #ccc;
 }
 .uni-navbar.uni-navbar-fixed {
 	position: fixed;
@@ -33,15 +34,9 @@
 	/* line-height: 100upx; */
 	font-size: 32rpx;
 }
-
-
-
-
 .uni-navbar-header {
 	height: auto;
 }
-
-
 .uni-navbar-header .uni-navbar-header-btns {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -80,7 +75,8 @@
 	/* align-items: flex-end; */
 	position: absolute;
 	width: 100%;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	text-align: center;
 	bottom: 0;
 }

@@ -123,9 +123,7 @@
     "pages/jx/gongdanlogin/gongdanSearch",
     "pages/jx/gongdanlogin/gongdangongxu",
     "pages/jx/jianxiusearch/jianxiuInfo",
-    "pages/jx/jianxiusearch/jianxiuSearch",
-    "pages/bfsh/bfsh",
-    "pages/checkbxht/checkbxht"
+    "pages/jx/jianxiusearch/jianxiuSearch"
   ],
   "subPackages": [],
   "window": {

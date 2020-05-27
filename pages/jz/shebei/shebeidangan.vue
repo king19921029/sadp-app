@@ -142,6 +142,7 @@
 				})
 			},
 			async findByConditionsQn() {
+				console.log(11)
 				try {
 					let data = await this.$wxhttp.get({
 						url: '/sadp-auth-app/app/qn/qnaa6To12/findByConditionsQn',
@@ -155,7 +156,7 @@
 					})
 					console.log(data)
 				} catch (e) {
-
+					console.log(data)
 				}
 			},
 		}
