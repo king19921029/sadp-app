@@ -104,19 +104,18 @@
 	},
 	"mp-toutiao": {
 		"usingComponents": true
-	},
-	/* h5特有相关 */
-	"h5": {
-		"devServer": {
-			"port": 8080, //端口号
-			"disableHostCheck": true,
-			"proxy": {
-				"/api": {
-					"target": "http://192.168.1.167", //目标接口域名
-					"changeOrigin": true, //是否跨域
-					"secure": false // 设置支持https协议的代理
-				}
-			}
-		}
 	}
+	// "h5": {
+		// "devServer": {
+		// 	"port": 8080, //端口号
+		// 	"disableHostCheck": true,
+		// 	"proxy": {
+		// 		"/api": {
+		// 			"target": "http://192.168.1.167", //目标接口域名
+		// 			"changeOrigin": true, //是否跨域
+		// 			"secure": false // 设置支持https协议的代理
+		// 		}
+		// 	}
+		// }
+	// }
 }

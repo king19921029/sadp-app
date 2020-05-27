@@ -71,7 +71,7 @@
 						weihurenname: '胡松亮',
 						tuhao: 'xxxxx',
 						zhuangjiliang: 'xxxxxx',
-						zichanzhuangtai: '资产状态'
+						zichanzhuangtai: 'xxxxxxx'
 					},
 					{
 						id: '010101',
@@ -127,17 +127,6 @@
 			this.findByConditionsQn()
 		},
 		methods: {
-			// 列表
-			async findByConditionsQn() {
-				try {
-					let data = await this.$wxhttp.get({
-						url: '/sadp-auth-app/app/qn/qnaa6To12/findByConditionsQn',
-					})
-					console.log(data)
-				} catch (e) {
-
-				}
-			},
 			toDetail(item) {
 
 				uni.navigateTo({
@@ -151,7 +140,24 @@
 				uni.navigateTo({
 					url: '/pages/jz/shebei/shebeiSearch'
 				})
-			}
+			},
+			async findByConditionsQn() {
+				try {
+					let data = await this.$wxhttp.get({
+						url: '/sadp-auth-app/app/qn/qnaa6To12/findByConditionsQn',
+						data: {
+							deviceId: "110101M01000",
+							deviceName: "测试使用",
+							deviceLevel: "12",
+							deviceType: "JSE00",
+							typeSpec: "测试"
+						}
+					})
+					console.log(data)
+				} catch (e) {
+
+				}
+			},
 		}
 	}
 </script>
